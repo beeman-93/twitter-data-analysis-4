@@ -10,3 +10,5 @@ We can see the word metrics is not that beautiful, so let's adjust the parameter
 
 I added more words to the stopwords list. Now the clusters are prettier.  
 Next, I will use some visualization tools to show the result. 
+
+# Update on using matplotlib to show the result. 
