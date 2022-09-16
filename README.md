@@ -11,4 +11,8 @@ We can see the word metrics is not that beautiful, so let's adjust the parameter
 I added more words to the stopwords list. Now the clusters are prettier.  
 Next, I will use some visualization tools to show the result. 
 
-# Update on using matplotlib to show the result. 
+# Update on using elbow method to find the right K
+
+In this repo, I applied elbow method to find the right amount of K for the K-means. When k==4, we notice an elbow point. 
+
+Therefore, we set the K==4. 
