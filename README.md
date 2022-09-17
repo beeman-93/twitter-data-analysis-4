@@ -13,8 +13,14 @@ Next, I will use some visualization tools to show the result.
 
 # Update on using elbow method to find the right K
 
-In this repo, I applied elbow method to find the right amount of K for the K-means. When k==4, we notice an elbow point. 
+In this repo, I applied elbow method to find the right amount of K for the K-means.  
 
+The math behind this method is that for every K, you calculate the total Sum of Squared Errors (SSE). 
+Then we plot the chart of SSE in relation to K. 
+
+The point where SSE start to decrease slowly is the elbow point. 
+
+When k==4, we notice an elbow point. 
 Therefore, we set the K==4. 
 
 # Update on some explanation on K means clustering algorithm
