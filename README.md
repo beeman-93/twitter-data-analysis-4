@@ -16,3 +16,22 @@ Next, I will use some visualization tools to show the result.
 In this repo, I applied elbow method to find the right amount of K for the K-means. When k==4, we notice an elbow point. 
 
 Therefore, we set the K==4. 
+
+# Update on some explanation on K means clustering algorithm
+
+K means clustering algorithm is an unsupervised machine learning technique used to cluster data. 
+
+Unspervised machine learning means the cases where you don't know your target variable or class. Instead, we 
+try to identify the underlying structure in the data. 
+
+1. Start with K centroids by putting them at random place. 
+
+2. Compute distance of every point from centroid and cluster them accordingly. 
+
+3. Adjust centroids so that they become center of gravity for given cluster. 
+
+4. Re-cluster every point based on their distance with centroid. 
+
+5. Again adjust centroids.
+
+6. Recomputer clusters and repeat this till data points stop changing clusters. 
