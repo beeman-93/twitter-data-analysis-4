@@ -41,3 +41,7 @@ try to identify the underlying structure in the data.
 5. Again adjust centroids.
 
 6. Recomputer clusters and repeat this till data points stop changing clusters. 
+
+# Next, we  will dig into LDA topic modeling
+
+LAD topic modeling method works well with long text given sometimes multiple topics can be detected in a long text. 
